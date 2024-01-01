@@ -253,10 +253,6 @@ Lượng tử hóa là quá trình chuyển đổi trọng số (và kích hoạ
 
 Khóa học này được dịch từ [Maxime Labonne](https://github.com/mlabonne/llm-course)
 
-Special thanks to Thomas Thelen for motivating me to create a roadmap, and André Frade for his input and review of the first draft.
+*Tuyên bố từ chối trách nhiệm: Tôi không liên kết với bất kỳ nguồn nào được liệt kê ở đây.*
 
-*Disclaimer: I am not affiliated with any sources listed here.*
 
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=mlabonne/llm-course&type=Date)](https://star-history.com/#mlabonne/llm-course&Date)
