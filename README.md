@@ -1,10 +1,9 @@
 # 🗣️ Mô hình ngôn ngữ lớn (Large Language Model - LLM)
 
-Khóa học này được chia thành 03 phần:
+Khóa học này được chia thành 02 phần:
 
 1. 🧩 **Cơ bản về LLM** bao gồm các kiến thức về toán học , Python, và mạng nơ ron.
 2. 🧑‍🔬 **Nhà nghiên cứu LLM** tập trung vào học cách làm thế nào để xây dựng kiến trúc LLMs tốt nhất bằng cách sử dụng kỹ thuật mới nhất. 
-3. 👷 **Kỹ sư LLM** tập trung vào việc làm thế nào có thể tạo ra các giải pháp dựa trên LLM và triển khai chúng. 
 
 ## 📝 Notebooks
 
@@ -18,107 +17,105 @@ Danh sách các code mẫu và bài viết liên quan đến LLM
 | Tinh chỉnh LLMs với Axolotl | Hướng dẫn chi tiết về công cụ tinh chỉnh hiện đại. | [Article](https://mlabonne.github.io/blog/posts/A_Beginners_Guide_to_LLM_Finetuning.html) | W.I.P. |
 | Tinh chỉnh mô hình Mistral-7b model với DPO | Tăng cường hiệu suất của các mô hình tinh chỉnh được giám sát với DPO. | [Tweet](https://twitter.com/maximelabonne/status/1729936514107290022) | <a href="https://colab.research.google.com/drive/15iFBr1xWgztXvhrj5I9fBv20c7CFOPBE?usp=sharing"><img src="images/colab.svg" alt="Open In Colab"></a> |
 
-### Lượng tử hóa ()uantization
+### Lượng tử hóa (Quantization)
 
 | Notebook | Mô tả | Bài viết | Notebook |
 |---------------------------------------|-------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1. Giới thiệu về Lượng tử hóa trọng số | Tối ưu hóa mô hình ngôn ngữ lớn bằng cách sử dụng lượng tử hóa 8 bit. | [Article](https://mlabonne.github.io/blog/posts/Introduction_to_Weight_Quantization.html) | <a href="https://colab.research.google.com/drive/1DPr4mUQ92Cc-xf4GgAaB6dFcFnWIvqYi?usp=sharing"><img src="images/colab.svg" alt="Open In Colab"></a> |
-| 2. 4-bit LLM Quantization using GPTQ | Quantize your own open-source LLMs to run them on consumer hardware. | [Article](https://mlabonne.github.io/blog/4bit_quantization/) | <a href="https://colab.research.google.com/drive/1lSvVDaRgqQp_mWK_jC9gydz6_-y6Aq4A?usp=sharing"><img src="images/colab.svg" alt="Open In Colab"></a> |
-| 3. Quantize Llama 2 models with GGUF and llama.cpp | Quantize Llama 2 models with llama.cpp and upload GGUF versions to the HF Hub. | [Article](https://mlabonne.github.io/blog/posts/Quantize_Llama_2_models_using_ggml.html) | <a href="https://colab.research.google.com/drive/1pL8k7m04mgE5jo2NrjGi8atB0j_37aDD?usp=sharing"><img src="images/colab.svg" alt="Open In Colab"></a> |
-| 4. ExLlamaV2: The Fastest Library to Run LLMs | Quantize and run EXL2 models and upload them to the HF Hub. | [Article](https://mlabonne.github.io/blog/posts/ExLlamaV2_The_Fastest_Library_to_Run%C2%A0LLMs.html) | <a href="https://colab.research.google.com/drive/1yrq4XBlxiA0fALtMoT2dwiACVc77PHou?usp=sharing"><img src="images/colab.svg" alt="Open In Colab"></a> |
+| 2. Lượng tử hóa LLM 4 bit bằng GPTQ | Lượng tử hóa mô hình LLM của bạn và chạy trên máy người dùng. | [Article](https://mlabonne.github.io/blog/4bit_quantization/) | <a href="https://colab.research.google.com/drive/1lSvVDaRgqQp_mWK_jC9gydz6_-y6Aq4A?usp=sharing"><img src="images/colab.svg" alt="Open In Colab"></a> |
+| 3. Lượng tử mô hình Llama 2 với GGUF và llama.cpp | Lượng tử mô hình Llama 2 với llama.cpp và tải GGUF lên HF Hub. | [Article](https://mlabonne.github.io/blog/posts/Quantize_Llama_2_models_using_ggml.html) | <a href="https://colab.research.google.com/drive/1pL8k7m04mgE5jo2NrjGi8atB0j_37aDD?usp=sharing"><img src="images/colab.svg" alt="Open In Colab"></a> |
+| 4. ExLlamaV2: Thư viện nhanh nhất để chạy LLM | Lượng tử hóa và chạy mô hình EXL2 và tải chúng lên HF Hub. | [Article](https://mlabonne.github.io/blog/posts/ExLlamaV2_The_Fastest_Library_to_Run%C2%A0LLMs.html) | <a href="https://colab.research.google.com/drive/1yrq4XBlxiA0fALtMoT2dwiACVc77PHou?usp=sharing"><img src="images/colab.svg" alt="Open In Colab"></a> |
 
-### Other
+### Khác
 
-| Notebook | Description | Article | Notebook |
+| Notebook | Mô tả | Bài viết | Notebook |
 |---------------------------------------|-------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Merge LLMs with Mergekit | Combine multiple LLMs and create your own Frankenstein models | [Tweet](https://twitter.com/maximelabonne/status/1740732104554807676) | <a href="https://colab.research.google.com/drive/1_JS7JKJAQozD48-LhYdegcuuZ2ddgXfr?usp=sharing"><img src="images/colab.svg" alt="Open In Colab"></a> |
-| Decoding Strategies in Large Language Models | A guide to text generation from beam search to nucleus sampling | [Article](https://mlabonne.github.io/blog/posts/2022-06-07-Decoding_strategies.html) | <a href="https://colab.research.google.com/drive/19CJlOS5lI29g-B3dziNn93Enez1yiHk2?usp=sharing"><img src="images/colab.svg" alt="Open In Colab"></a> |
-| Visualizing GPT-2's Loss Landscape | 3D plot of the loss landscape based on weight pertubations. | [Tweet](https://twitter.com/maximelabonne/status/1667618081844219904) | <a href="https://colab.research.google.com/drive/1Fu1jikJzFxnSPzR_V2JJyDVWWJNXssaL?usp=sharing"><img src="images/colab.svg" alt="Open In Colab"></a> |
-| Improve ChatGPT with Knowledge Graphs | Augment ChatGPT's answers with knowledge graphs. | [Article](https://mlabonne.github.io/blog/posts/Article_Improve_ChatGPT_with_Knowledge_Graphs.html) | <a href="https://colab.research.google.com/drive/1mwhOSw9Y9bgEaIFKT4CLi0n18pXRM4cj?usp=sharing"><img src="images/colab.svg" alt="Open In Colab"></a> |
+| Hợp nhất LLM với Mergekit | Kết hợp nhiều LLM và tạo mô hình Frankenstein của riêng bạn | [Tweet](https://twitter.com/maximelabonne/status/1740732104554807676) | <a href="https://colab.research.google.com/drive/1_JS7JKJAQozD48-LhYdegcuuZ2ddgXfr?usp=sharing"><img src="images/colab.svg" alt="Open In Colab"></a> |
+| Chiến lược giải mã trong các mô hình ngôn ngữ lớn | Hướng dẫn tạo văn bản từ tìm kiếm chùm tia đến lấy mẫu hạt nhân | [Article](https://mlabonne.github.io/blog/posts/2022-06-07-Decoding_strategies.html) | <a href="https://colab.research.google.com/drive/19CJlOS5lI29g-B3dziNn93Enez1yiHk2?usp=sharing"><img src="images/colab.svg" alt="Open In Colab"></a> |
+| Trực quan hóa hàm mất mát của GPT-2 | Sơ đồ 3D trực quan hàm mất mát dựa trên sự nhiễu loạn trọng số. | [Tweet](https://twitter.com/maximelabonne/status/1667618081844219904) | <a href="https://colab.research.google.com/drive/1Fu1jikJzFxnSPzR_V2JJyDVWWJNXssaL?usp=sharing"><img src="images/colab.svg" alt="Open In Colab"></a> |
+| Cải thiện ChatGPT bằng Sơ đồ tri thức | Tăng cường câu trả lời của ChatGPT bằng biểu đồ tri thức. | [Article](https://mlabonne.github.io/blog/posts/Article_Improve_ChatGPT_with_Knowledge_Graphs.html) | <a href="https://colab.research.google.com/drive/1mwhOSw9Y9bgEaIFKT4CLi0n18pXRM4cj?usp=sharing"><img src="images/colab.svg" alt="Open In Colab"></a> |
 
-## 🧩 LLM Fundamentals
+## 🧩 Cơ bản về LLM
 
 ![](images/roadmap_fundamentals.png)
 
-### 1. Mathematics for Machine Learning
+### 1. Toán học cho học máy
 
-Before mastering machine learning, it is important to understand the fundamental mathematical concepts that power these algorithms.
+Trước khi thành thạo machine learning, điều quan trọng là phải hiểu các khái niệm toán học cơ bản hỗ trợ các thuật toán này.
 
-- **Linear Algebra**: This is crucial for understanding many algorithms, especially those used in deep learning. Key concepts include vectors, matrices, determinants, eigenvalues and eigenvectors, vector spaces, and linear transformations.
-- **Calculus**: Many machine learning algorithms involve the optimization of continuous functions, which requires an understanding of derivatives, integrals, limits, and series. Multivariable calculus and the concept of gradients are also important.
-- **Probability and Statistics**: These are crucial for understanding how models learn from data and make predictions. Key concepts include probability theory, random variables, probability distributions, expectations, variance, covariance, correlation, hypothesis testing, confidence intervals, maximum likelihood estimation, and Bayesian inference.
+- **Đại số tuyến tính (Linear Algebra)**: Môn này rất quan trọng để hiểu nhiều thuật toán, đặc biệt là những thuật toán được sử dụng trong học sâu. Các khái niệm chính bao gồm vectơ, ma trận, định thức, giá trị riêng và vectơ riêng, không gian vectơ và các phép biến đổi tuyến tính.
+- **Giải tích (Calculus)**: Nhiều thuật toán học máy liên quan đến việc tối ưu hóa các hàm liên tục, đòi hỏi sự hiểu biết về đạo hàm, tích phân, giới hạn và chuỗi. Phép tính đa biến và khái niệm gradient cũng rất quan trọng.
+- **Xác suất và Thống kê**: Đây là những thông tin quan trọng để hiểu cách các mô hình học hỏi từ dữ liệu và đưa ra dự đoán. Các khái niệm chính bao gồm lý thuyết xác suất, biến ngẫu nhiên, phân bố xác suất, kỳ vọng, phương sai, hiệp phương sai, tương quan, kiểm tra giả thuyết, khoảng tin cậy, ước tính khả năng tối đa và suy luận Bayes.
 
-📚 Resources:
+📚 Tài nguyên học tập:
 
-- [3Blue1Brown - The Essence of Linear Algebra](https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab): Series of videos that give a geometric intuition to these concepts.
-- [StatQuest with Josh Starmer - Statistics Fundamentals](https://www.youtube.com/watch?v=qBigTkBLU6g&list=PLblh5JKOoLUK0FLuzwntyYI10UQFUhsY9): Offers simple and clear explanations for many statistical concepts.
-- [AP Statistics Intuition by Ms Aerin](https://automata88.medium.com/list/cacc224d5e7d): List of Medium articles that provide the intuition behind every probability distribution.
-- [Immersive Linear Algebra](https://immersivemath.com/ila/learnmore.html): Another visual interpretation of linear algebra.
-- [Khan Academy - Linear Algebra](https://www.khanacademy.org/math/linear-algebra): Great for beginners as it explains the concepts in a very intuitive way.
-- [Khan Academy - Calculus](https://www.khanacademy.org/math/calculus-1): An interactive course that covers all the basics of calculus.
-- [Khan Academy - Probability and Statistics](https://www.khanacademy.org/math/statistics-probability): Delivers the material in an easy-to-understand format.
+- [3Blue1Brown - The Essence of Linear Algebra](https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab): Chuỗi video cung cấp trực quan hình học cho các khái niệm này.
+- [StatQuest with Josh Starmer - Statistics Fundamentals](https://www.youtube.com/watch?v=qBigTkBLU6g&list=PLblh5JKOoLUK0FLuzwntyYI10UQFUhsY9): Cung cấp những giải thích đơn giản và rõ ràng cho nhiều khái niệm thống kê.
+- [Immersive Linear Algebra](https://immersivemath.com/ila/learnmore.html): Một cách giải thích trực quan khác về đại số tuyến tính.
+- [Khan Academy - Linear Algebra](https://www.khanacademy.org/math/linear-algebra): Tốt cho người mới bắt đầu vì nó giải thích các khái niệm một cách rất trực quan.
+- [Khan Academy - Calculus](https://www.khanacademy.org/math/calculus-1): Khóa học tương tác bao gồm tất cả những kiến thức cơ bản về tính toán.
+- [Khan Academy - Probability and Statistics](https://www.khanacademy.org/math/statistics-probability): Tài liệu học tập dễ hiểu. 
+---
+
+### 2. Python cho học máy (Machine Learning)
+
+Python là ngôn ngữ lập trình mạnh mẽ và linh hoạt, đặc biệt tốt cho machine learning nhờ tính dễ đọc, tính nhất quán và hệ sinh thái mạnh mẽ của các thư viện khoa học dữ liệu.
+
+- **Khái niệm cơ bản về Python**: Việc hiểu biết về cú pháp cơ bản, kiểu dữ liệu, xử lý lỗi và lập trình hướng đối tượng của Python là rất quan trọng.
+- **Thư viện khoa học dữ liệu**: Bắt buộc phải làm quen với NumPy cho các phép toán số, Pandas để thao tác và phân tích dữ liệu, Matplotlib và Seaborn để trực quan hóa dữ liệu.
+- **Tiền xử lý dữ liệu**: Quá trình này bao gồm việc chia tỷ lệ và chuẩn hóa thuộc tính, xử lý dữ liệu bị thiếu, phát hiện ngoại lệ, mã hóa dữ liệu theo phân loại và chia dữ liệu thành các tập huấn luyện, xác thực và kiểm tra.
+- **Thư viện cho học máy**: Thành thạo Scikit-learn - thư viện cung cấp nhiều lựa chọn thuật toán học có giám sát và không giám sát -là rất quan trọng. Hiểu cách triển khai các thuật toán như hồi quy tuyến tính, hồi quy logistic, cây quyết định, rừng ngẫu nhiên, k-láng giềng gần nhất (K-NN) và phân cụm K-mean . Các kỹ thuật giảm kích thước như PCA và t-SNE cũng rất hữu ích để hiển thị dữ liệu nhiều chiều.
+
+📚 Tài nguyên:
+
+- [Real Python](https://realpython.com/): Một nguồn tài nguyên toàn diện với các bài viết và hướng dẫn cho cả khái niệm Python dành cho người mới bắt đầu và nâng cao.
+- [freeCodeCamp - Learn Python](https://www.youtube.com/watch?v=rfscVS0vtbw): Video dài cung cấp phần giới thiệu đầy đủ về tất cả các khái niệm cốt lõi trong Python.
+- [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/): Cuốn sách kỹ thuật số miễn phí là nguồn tài nguyên tuyệt vời để học về panda, NumPy, matplotlib và Seaborn.
+- [freeCodeCamp - Machine Learning for Everybody](https://youtu.be/i_LwzRVP7bg): Giới thiệu thực tế về các thuật toán học máy khác nhau cho người mới bắt đầu.
+- [Udacity - Intro to Machine Learning](https://www.udacity.com/course/intro-to-machine-learning--ud120): Khóa học miễn phí bao gồm PCA và một số khái niệm học máy khác.
 
 ---
 
-### 2. Python for Machine Learning
+### 3. Mạng nơ ron (Neural Networks)
 
-Python is a powerful and flexible programming language that's particularly good for machine learning, thanks to its readability, consistency, and robust ecosystem of data science libraries.
+Mạng lưới thần kinh là một phần cơ bản của nhiều mô hình học máy, đặc biệt là trong lĩnh vực học sâu. Để sử dụng chúng một cách hiệu quả, cần phải có sự hiểu biết toàn diện về thiết kế và cơ chế của chúng.
 
-- **Python Basics**: Understanding of Python's basic syntax, data types, error handling, and object-oriented programming is crucial.
-- **Data Science Libraries**: Familiarity with NumPy for numerical operations, Pandas for data manipulation and analysis, Matplotlib and Seaborn for data visualization is a must.
-- **Data Preprocessing**: This involves feature scaling and normalization, handling missing data, outlier detection, categorical data encoding, and splitting data into training, validation, and test sets.
-- **Machine Learning Libraries**: Proficiency with Scikit-learn, a library providing a wide selection of supervised and unsupervised learning algorithms, is vital. Understanding how to implement algorithms like linear regression, logistic regression, decision trees, random forests, k-nearest neighbors (K-NN), and K-means clustering is important. Dimensionality reduction techniques like PCA and t-SNE are also very helpful for visualizing high-dimensional data.
+- **Cơ bản**: Gồm việc hiểu cấu trúc của mạng lưới thần kinh như các lớp, trọng số, độ lệch, hàm kích hoạt (sigmoid, tanh, ReLU, v.v.)
+- **Huấn luyện và tối ưu**: Làm quen với lan truyền ngược và các loại hàm mất mát khác nhau, như Lỗi bình phương trung bình (MSE) và Entropy chéo. Hiểu các thuật toán tối ưu hóa khác nhau như Giảm dần độ dốc, Giảm dần độ dốc ngẫu nhiên, RMSprop và Adam.
+- **Overfitting**: Hiểu khái niệm về overfitting (trong đó một mô hình hoạt động tốt trên dữ liệu huấn luyện nhưng kém trên dữ liệu không nhìn thấy) và các kỹ thuật chính quy hóa khác nhau để ngăn chặn overfitting. Các kỹ thuật bao gồm dropout, chuẩn hóa L1/L2, dừng sớm và tăng cường dữ liệu.
+- **Triển khai Perceptron đa lớp (MLP)**: Xây dựng MLP, còn được gọi là mạng được kết nối đầy đủ, sử dụng PyTorch.
 
-📚 Resources:
+📚 Tài nguyên:
 
-- [Real Python](https://realpython.com/): A comprehensive resource with articles and tutorials for both beginner and advanced Python concepts.
-- [freeCodeCamp - Learn Python](https://www.youtube.com/watch?v=rfscVS0vtbw): Long video that provides a full introduction into all of the core concepts in Python.
-- [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/): Free digital book that is a great resource for learning pandas, NumPy, matplotlib, and Seaborn.
-- [freeCodeCamp - Machine Learning for Everybody](https://youtu.be/i_LwzRVP7bg): Practical introduction to different machine learning algorithms for beginners.
-- [Udacity - Intro to Machine Learning](https://www.udacity.com/course/intro-to-machine-learning--ud120): Free course that covers PCA and several other machine learning concepts.
-
----
-
-### 3. Neural Networks
-
-Neural networks are a fundamental part of many machine learning models, particularly in the realm of deep learning. To utilize them effectively, a comprehensive understanding of their design and mechanics is essential.
-
-- **Fundamentals**: This includes understanding the structure of a neural network such as layers, weights, biases, activation functions (sigmoid, tanh, ReLU, etc.)
-- **Training and Optimization**: Familiarize yourself with backpropagation and different types of loss functions, like Mean Squared Error (MSE) and Cross-Entropy. Understand various optimization algorithms like Gradient Descent, Stochastic Gradient Descent, RMSprop, and Adam.
-- **Overfitting**: It's crucial to comprehend the concept of overfitting (where a model performs well on training data but poorly on unseen data) and various regularization techniques to prevent it. Techniques include dropout, L1/L2 regularization, early stopping, and data augmentation.
-- **Implement a Multilayer Perceptron (MLP)**: Build an MLP, also known as a fully connected network, using PyTorch.
-
-📚 Resources:
-
-- [3Blue1Brown - But what is a Neural Network?](https://www.youtube.com/watch?v=aircAruvnKk): This video gives an intuitive explanation of neural networks and their inner workings.
-- [freeCodeCamp - Deep Learning Crash Course](https://www.youtube.com/watch?v=VyWAvY2CF9c): This video efficiently introduces all the most important concepts in deep learning.
-- [Fast.ai - Practical Deep Learning](https://course.fast.ai/): Free course designed for people with coding experience who want to learn about deep learning.
-- [Patrick Loeber - PyTorch Tutorials](https://www.youtube.com/playlist?list=PLqnslRFeH2UrcDBWF5mfPGpqQDSta6VK4): Series of videos for complete beginners to learn about PyTorch.
+- [3Blue1Brown - But what is a Neural Network?](https://www.youtube.com/watch?v=aircAruvnKk): Video này đưa ra lời giải thích trực quan về mạng lưới thần kinh và hoạt động bên trong của chúng.
+- [freeCodeCamp - Deep Learning Crash Course](https://www.youtube.com/watch?v=VyWAvY2CF9c): Video này giới thiệu một cách hiệu quả tất cả các khái niệm quan trọng nhất trong học sâu.
+- [Fast.ai - Practical Deep Learning](https://course.fast.ai/): Khóa học miễn phí được thiết kế dành cho những người có kinh nghiệm viết mã muốn tìm hiểu về deep learning.
+- [Patrick Loeber - PyTorch Tutorials](https://www.youtube.com/playlist?list=PLqnslRFeH2UrcDBWF5mfPGpqQDSta6VK4): loạt video dành cho người mới bắt đầu tìm hiểu về PyTorch.
 
 ---
 
-### 4. Natural Language Processing (NLP)
+### 4. Xử lý ngôn ngữ tự nhiên (NLP)
 
-NLP is a fascinating branch of artificial intelligence that bridges the gap between human language and machine understanding. From simple text processing to understanding linguistic nuances, NLP plays a crucial role in many applications like translation, sentiment analysis, chatbots, and much more.
+NLP là một nhánh của trí tuệ nhân tạo giúp thu hẹp khoảng cách giữa ngôn ngữ con người và sự hiểu biết của máy móc. Từ xử lý văn bản đơn giản đến hiểu các sắc thái ngôn ngữ, NLP đóng một vai trò quan trọng trong nhiều ứng dụng như dịch thuật, phân tích tình cảm, chatbot, v.v.
 
-- **Text Preprocessing**: Learn various text preprocessing steps like tokenization (splitting text into words or sentences), stemming (reducing words to their root form), lemmatization (similar to stemming but considers the context), stop word removal, etc.
-- **Feature Extraction Techniques**: Become familiar with techniques to convert text data into a format that can be understood by machine learning algorithms. Key methods include Bag-of-words (BoW), Term Frequency-Inverse Document Frequency (TF-IDF), and n-grams.
-- **Word Embeddings**: Word embeddings are a type of word representation that allows words with similar meanings to have similar representations. Key methods include Word2Vec, GloVe, and FastText.
-- **Recurrent Neural Networks (RNNs)**: Understand the working of RNNs, a type of neural network designed to work with sequence data. Explore LSTMs and GRUs, two RNN variants that are capable of learning long-term dependencies.
+- **Tiền xử lý văn bản**: Tìm hiểu các bước tiền xử lý văn bản khác nhau như mã hóa (chia văn bản thành các từ hoặc câu), rút gọn từ gốc (rút gọn các từ về dạng gốc), từ vựng hóa (tương tự như tách gốc nhưng có tính đến ngữ cảnh), loại bỏ từ, v.v. .
+- **Kỹ thuật trích xuất đặc trưng**: Làm quen với các kỹ thuật chuyển đổi dữ liệu văn bản sang định dạng mà thuật toán máy học có thể hiểu được. Các phương pháp chính bao gồm Túi từ (BoW), Tần số tài liệu nghịch đảo tần số thuật ngữ (TF-IDF) và n-gram.
+- **Nhúng từ**: Nhúng từ là một kiểu trình bày từ cho phép các từ có nghĩa tương tự có cách trình bày tương tự. Các phương thức chính bao gồm Word2Vec, GloVe và FastText.
+- **Mạng thần kinh hồi quy (RNN)**: Hiểu hoạt động của RNN, một loại mạng thần kinh được thiết kế để hoạt động với dữ liệu chuỗi. Khám phá LSTM và GRU, hai biến thể RNN có khả năng học các phần phụ thuộc lâu dài.
+  
+📚 Tài nguyên:
 
-📚 Resources:
+- [RealPython - NLP with spaCy in Python](https://realpython.com/natural-language-processing-spacy-python/): Hướng dẫn đầy đủ về thư viện spaCy cho các tác vụ NLP trong Python.
+- [Kaggle - NLP Guide](https://www.kaggle.com/learn-guide/natural-language-processing): Một notebooks và tài nguyên để giải thích thực tế về NLP trong Python.
+- [Jay Alammar - The Illustration Word2Vec](https://jalammar.github.io/illustrated-word2vec/): Tài liệu tham khảo tốt để hiểu kiến trúc nổi tiếng Word2Vec .
+- [Jake Tae - PyTorch RNN from Scratch](https://jaketae.github.io/study/pytorch-rnn/): Triển khai thực tế và đơn giản các mô hình RNN, LSTM và GRU trong PyTorch.
+- [colah's blog - Understanding LSTM Networks](https://colah.github.io/posts/2015-08-Understanding-LSTMs/): Bài viết mang tính lý thuyết nhiều hơn về mạng LSTM.
 
-- [RealPython - NLP with spaCy in Python](https://realpython.com/natural-language-processing-spacy-python/): Exhaustive guide about the spaCy library for NLP tasks in Python.
-- [Kaggle - NLP Guide](https://www.kaggle.com/learn-guide/natural-language-processing): A few notebooks and resources for a hands-on explanation of NLP in Python.
-- [Jay Alammar - The Illustration Word2Vec](https://jalammar.github.io/illustrated-word2vec/): A good reference to understand the famous Word2Vec architecture.
-- [Jake Tae - PyTorch RNN from Scratch](https://jaketae.github.io/study/pytorch-rnn/): Practical and simple implementation of RNN, LSTM, and GRU models in PyTorch.
-- [colah's blog - Understanding LSTM Networks](https://colah.github.io/posts/2015-08-Understanding-LSTMs/): A more theoretical article about the LSTM network.
-
-## 🧑‍🔬 The LLM Scientist
+## 🧑‍🔬 **Nhà nghiên cứu LLM**
 
 ![](images/roadmap_scientist.png)
 
-### 1. The LLM architecture
+### 1. Kiến trúc của LLM
 
 While an in-depth knowledge about the Transformer architecture is not required, it is important to have a good understanding of its inputs (tokens) and outputs (logits). The vanilla attention mechanism is another crucial component to master, as improved versions of it are introduced later on.
 
