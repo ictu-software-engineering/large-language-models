@@ -251,7 +251,7 @@ Lượng tử hóa là quá trình chuyển đổi trọng số (và kích hoạ
 
 ### Lời cảm ơn
 
-Lộ trình này được lấy cảm hứng từ [Lộ trình DevOps](https://github.com/milanm/DevOps-Roadmap) xuất sắc của Milan Milanović và Romano Roth.
+Khóa học này được dịch từ [Maxime Labonne](https://github.com/mlabonne/llm-course)
 
 Special thanks to Thomas Thelen for motivating me to create a roadmap, and André Frade for his input and review of the first draft.
 
